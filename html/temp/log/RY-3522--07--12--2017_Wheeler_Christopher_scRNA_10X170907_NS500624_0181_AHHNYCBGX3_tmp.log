@@ -1,0 +1,31 @@
+cellranger mkfastq (2.0.1)
+Copyright (c) 2017 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Martian Runtime - 2.0.1-2.2.1
+Running preflight checks (please wait)...
+Checking run folder...
+Checking RunInfo.xml...
+Checking system environment...
+Checking barcode whitelist...
+Checking read specification...
+Checking samplesheet specs...
+Checking for dual index flowcell...
+2017-09-27 12:18:59 [runtime] (ready)           ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2017-09-27 12:19:02 [runtime] (split_complete)  ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2017-09-27 12:19:02 [runtime] (run:local)       ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET.fork0.chnk0.main
+2017-09-27 12:19:05 [runtime] (chunks_complete) ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2017-09-27 12:19:08 [runtime] (join_complete)   ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2017-09-27 12:19:14 [runtime] (ready)           ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2017-09-27 12:19:14 [runtime] (run:local)       ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.split
+2017-09-27 12:19:17 [runtime] (split_complete)  ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2017-09-27 12:19:17 [runtime] (run:local)       ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.chnk0.main
+2017-09-27 12:20:00 [runtime] (failed)          ID.HHNYCBGX3.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+
+[error] bcl2fastq was killed with signal -15.
+
+Saving pipestance info to HHNYCBGX3/HHNYCBGX3.mri.tgz
+For assistance, upload this file to 10x Genomics by running:
+
+cellranger upload <your_email> HHNYCBGX3/HHNYCBGX3.mri.tgz
+

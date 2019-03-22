@@ -1,0 +1,17 @@
+[Header],,,
+EMFileVersion,4,,
+ ,,,
+[Reads],,,
+26,,,
+98,,,
+ ,,,
+[Data],,,
+Sample_ID,Sample_Name,index,Sample_Project
+SI-3A-G3_1,PH_Day_5,ATGTCCAG,Chromium_20171003
+SI-3A-G3_2,PH_Day_5,CGACGTCA,Chromium_20171003
+SI-3A-G3_3,PH_Day_5,GCTATAGC,Chromium_20171003
+SI-3A-G3_4,PH_Day_5,TACGAGTT,Chromium_20171003
+SI-3A-H3_1,PH_Day_10,ACACCTAA,Chromium_20171003
+SI-3A-H3_2,PH_Day_10,CGTTTGGG,Chromium_20171003
+SI-3A-H3_3,PH_Day_10,GACAAACC,Chromium_20171003
+SI-3A-H3_4,PH_Day_10,TTGGGCTT,Chromium_20171003

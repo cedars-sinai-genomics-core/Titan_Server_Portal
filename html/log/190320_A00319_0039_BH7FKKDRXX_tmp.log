@@ -1,0 +1,85 @@
+/home/genomics/apps/cellranger-2.2.0/cellranger-cs/2.2.0/bin
+cellranger mkfastq (2.2.0)
+Copyright (c) 2018 10x Genomics, Inc.  All rights reserved.
+-------------------------------------------------------------------------------
+
+Martian Runtime - '2.2.0-v2.3.3'
+Serving UI at http://titan:43607?auth=lMNcieyNkqXxepmpoJdnCjwPpUcfcLVVtSJZjvCByFQ
+
+Running preflight checks (please wait)...
+Checking run folder...
+Checking RunInfo.xml...
+Checking system environment...
+Checking barcode whitelist...
+Checking read specification...
+Checking samplesheet specs...
+Checking for dual index flowcell...
+2019-03-21 14:24:21 [runtime] (ready)           ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2019-03-21 14:24:24 [runtime] (split_complete)  ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2019-03-21 14:24:24 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET.fork0.chnk0.main
+2019-03-21 14:24:27 [runtime] (chunks_complete) ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2019-03-21 14:24:30 [runtime] (join_complete)   ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.PREPARE_SAMPLESHEET
+2019-03-21 14:24:37 [runtime] (ready)           ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2019-03-21 14:24:37 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.split
+2019-03-21 14:24:40 [runtime] (split_complete)  ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2019-03-21 14:24:40 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.chnk0.main
+2019-03-21 14:31:06 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 14:37:20 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 14:43:56 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 14:50:35 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 14:56:44 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:03:00 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:09:08 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:15:19 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:21:31 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:27:26 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:33:43 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:40:04 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:46:11 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:52:16 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 15:58:39 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 16:04:42 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 16:10:55 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 16:16:57 [runtime] (update)          ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0 chunks_running
+2019-03-21 16:17:00 [runtime] (chunks_complete) ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2019-03-21 16:17:00 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET.fork0.join
+2019-03-21 16:17:03 [runtime] (join_complete)   ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.BCL2FASTQ_WITH_SAMPLESHEET
+2019-03-21 16:17:06 [runtime] (ready)           ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY
+2019-03-21 16:17:06 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY.fork0.split
+2019-03-21 16:17:09 [runtime] (split_complete)  ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY
+2019-03-21 16:17:09 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY.fork0.join
+2019-03-21 16:17:12 [runtime] (join_complete)   ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MAKE_QC_SUMMARY
+2019-03-21 16:17:15 [runtime] (ready)           ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2019-03-21 16:17:15 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.split
+2019-03-21 16:17:19 [runtime] (split_complete)  ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2019-03-21 16:17:19 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk00.main
+2019-03-21 16:17:19 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk01.main
+2019-03-21 16:17:19 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk02.main
+2019-03-21 16:17:19 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk03.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk04.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk05.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk06.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk07.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk08.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk09.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk10.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk11.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk12.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk13.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk14.main
+2019-03-21 16:17:20 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.chnk15.main
+2019-03-21 16:17:29 [runtime] (chunks_complete) ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+2019-03-21 16:17:29 [runtime] (run:local)       ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE.fork0.join
+2019-03-21 16:17:32 [runtime] (join_complete)   ID.H7FKKDRXX.MAKE_FASTQS_CS.MAKE_FASTQS.MERGE_FASTQS_BY_LANE_SAMPLE
+
+Outputs:
+- Run QC metrics:        null
+- FASTQ output folder:   /home/genomics/genomics/data/Temp/Sequence_Temp/NovaSeq/Fastq_Generation/190320_A00319_0039_BH7FKKDRXX
+- Interop output folder: /home/genomics/genomics/data/Temp/Sequence_Temp/NovaSeq/Fastq_Generation/190320_A00319_0039_BH7FKKDRXX/H7FKKDRXX/outs/interop_path
+- Input samplesheet:     /home/genomics/genomics/data/Temp/Sequence_Temp/NovaSeq/Fastq_Generation/190320_A00319_0039_BH7FKKDRXX/H7FKKDRXX/outs/input_samplesheet.csv
+
+Waiting 6 seconds for UI to do final refresh.
+Pipestance completed successfully!
+
+Saving pipestance info to H7FKKDRXX/H7FKKDRXX.mri.tgz
+Mail Delivery Status Report will be mailed to <root>.
