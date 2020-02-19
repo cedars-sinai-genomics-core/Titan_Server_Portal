@@ -16,7 +16,7 @@ cat ${dir}/${base}_counts.txt | grep -v "__"| sort -k 1 > ${dir}/${base}_temp.tx
 rm ${dir}/${base}_temp.txt
 done
 
-/home/genomics/anaconda2/bin/multiqc  -c $config $1
+/home/genomics/anaconda3/bin/multiqc  -c $config $1
 paste *_temp.txt | awk 'NR==1{for(i=1;i<=NF;i++)b[$i]++&&a[i]}{for(i in a)$i="";gsub(" +"," ")}1' > counts.txt
 
 mkdir final_result
